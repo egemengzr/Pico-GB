@@ -2,35 +2,38 @@
 
 This is a fork of the [RP2040-GB Game Boy (DMG) emulator from deltabeard](https://github.com/deltabeard/RP2040-GB). RP2040-GB is a Game Boy (DMG) emulator Peanut-GB on the Raspberry Pi RP2040 microcontroller, using an ILI9225 screen. Runs at more than 70 fps without audio emulation. With frame skip and interlacing, can run at up to 120 fps.
 
-This fork includes changes done by YouMakeTech [Pico-GB](https://www.youmaketech.com/pico-gb-gameboy-emulator-handheld-for-raspberry-pi-pico/):
+This fork includes changes done by YouMakeTech:
 * push buttons support
 * overclocking to 266MHz for more accurate framerate (~60 FPS)
 * I2S sound support (44.1kHz 16 bits stereo audio)
 * SD card support (store roms and save games) + game selection menu
 * automatic color palette selection for some games (emulation of Game Boy Color Bootstrap ROM) + manual color palette selection
 
-Pico-GB is a [3d-printed Game Boy emulator handheld gaming console for Raspberry Pi Pico](https://www.youmaketech.com/pico-gb-gameboy-emulator-handheld-for-raspberry-pi-pico/) that ressembles to the original Nintendo Game Boy released in 1989.
+Pico-GB is a [3d-printed Game Boy emulator handheld gaming console for Raspberry Pi Pico and it's look like BMO](link).
 
 # Videos
-* [Let's build a Game Boy Emulator on a Breadboard!](https://youtu.be/ThmwXpIsGWs)
-* [Build the ULTIMATE GameBoy Emulator for Raspberry Pi Pico](https://youtu.be/yauNQSS6nC4)
+* [How to Build a BMO as a Handheld Console](link)
+* [Making BMO Handheld Console (Timalapse)](link)
 
 # Hardware
 ## What you need
-* (1x) [Raspberry Pi Pico](https://amzn.to/3rAcmDy)
-* (1x) [2.2inch ILI9225 176×220 LCD Display Module](https://amzn.to/3aNAMD7)
-* (1x) [FAT 32 formatted Micro SD card + adapter](https://amzn.to/3ICKzcm) with roms you legally own. Roms must have the .gb extension and must be copied to the root folder.
-* (1x) [MAX98357A amplifier](https://www.youmaketech.com/max98357)
-* (1x) [2W 8ohms speaker](https://amzn.to/3ikDy6S)
+* (1x) [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
+* (1x) [2.2inch ILI9225 176×220 LCD Display Module](https://tr.aliexpress.com/item/1005007465357755.html)
+* (1x) [FAT 32 formatted Micro SD card + adapter](https://www.raspberrypi.com/products/sd-cards/) with roms you legally own. Roms must have the .gb extension and must be copied to the root folder.
+* (1x) [MAX98357A amplifier](https://amzn.eu/d/cFlT49p)
+* (1x) [2W 8ohms speaker]([https://amzn.to/3ikDy6S](https://tr.aliexpress.com/item/4000819227540.html))
 * (8x) [Micro Push Button Switch, Momentary Tactile Tact Touch, 6x6x6 mm, 4 pins](https://amzn.to/3dyXBsx)
 * (1x) [Solderable Breadboard](https://amzn.to/3lwvfDi)
+* (1x) [Mini Switch](https://tr.aliexpress.com/item/1005002512478598.html)
+* (1x) 3.7V 1S Battery (I was used 2800mAh)
+* (1x) [PCB](link)
 * [Dupont Wires Assorted Kit (Male to Female + Male to Male + Female to Female)](https://amzn.to/3HtbvdO)
 * [Preformed Breadboard Jumper Wires](https://amzn.to/3rxwVjM)
 
-DISCLAIMER: Some links are affiliate links. As an Amazon Associate I receive a small commission (at no extra cost to you) if you make a purchase after clicking one of the affiliate links. Thanks for your support!
+DISCLAIMER: There are no affiliate links.
 
 ## Setting up the hardware
-[Pico-GB assembly instructions, circuit diagrams, 3d printed files etc.](https://www.youmaketech.com/pico-gb-gameboy-emulator-handheld-for-raspberry-pi-pico/)
+[BMO 3D Files](link)
 
 # Pinout
 * UP = GP2
